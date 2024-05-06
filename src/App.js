@@ -11,6 +11,7 @@ import {
   Route,
   Routes,
   Navigate,
+  BrowserRouter,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -29,11 +30,12 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      {/* <Preloader load={load} /> */}
+    <BrowserRouter>
+      {/* <Router> */}
+      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
@@ -43,7 +45,8 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+      {/* </Router> */}
+    </BrowserRouter>
   );
 }
 
