@@ -16,7 +16,7 @@ function AboutCard() {
             I have completed
             <br />
             <br />
-            BE Information Technology.
+            BTech Information Technology.
           </p>
           <ul>
             <li className="about-activity">
