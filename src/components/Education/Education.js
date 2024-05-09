@@ -6,7 +6,7 @@ import Degree from "./Degree";
 import classes from "./education.module.css";
 import { useSelector } from "react-redux";
 
-function Education(props) {
+export const Education = (props) => {
   const nonThemeColor = useSelector((state) => state.nonThemeColor);
   const uiColor = useSelector((state) => state.uiColor);
 
@@ -41,5 +41,4 @@ function Education(props) {
       {/* <Certifications /> */}
     </Fragment>
   );
-}
-export default Education;
+};
