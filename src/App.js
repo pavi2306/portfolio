@@ -16,7 +16,6 @@ import Mode from "./theme/mode";
 const App = () => {
   // const location = useLocation();
   const theme = useSelector((state) => state.theme);
-
   return (
     <div className="App" style={theme}>
       <Navbar />
