@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
-import "./Navbar.css";
+import "./navbar.css";
 
 import { themeActions } from "../../store/theme";
 
