@@ -9,7 +9,7 @@
 // import Certifications from "./components/Certifications/Certifications";
 // import Projects from "./components/Projects/Project";
 // import AboutMe from "./components/About Me/AboutMe";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 // import Mode from "./theme/mode";
 
 const App = () => {
