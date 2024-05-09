@@ -4,7 +4,6 @@ import classes from "./aboutMe.module.css";
 import PersonalData from "../../Data/PersonalData";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import Button from "../UI/Button";
-import GetInTouch from "../Get In Touch/GetInTouch";
 import { useSelector } from "react-redux";
 
 const AboutMe = () => {

@@ -1,7 +1,6 @@
 import React from "react";
 
 import classes from "./degree.module.css";
-import UniversityImg from "../../Data/universityLogo.png";
 
 import Card from "../UI/Card";
 import EducationData from "../../Data/EducationData";

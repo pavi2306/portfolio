@@ -1,14 +1,5 @@
 import classes from "./programmingSkills.module.css";
-import {
-  CPP,
-  Python,
-  MongoDB,
-  FireBase,
-  ReactJS,
-  NodeJs,
-  JavaScript,
-  Redux,
-} from "../asset/svg/svg";
+import { MongoDB, ReactJS, NodeJs, JavaScript, Redux } from "../asset/svg/svg";
 import { useSelector } from "react-redux";
 const skills = [ReactJS, JavaScript, NodeJs, MongoDB, Redux];
 const skillNames = [
